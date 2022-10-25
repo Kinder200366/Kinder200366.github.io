@@ -1,0 +1,75 @@
+---
+title: Hello World
+abbrlink: 3eeb
+---
+Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+## Quick Start
+
+### Create a new post
+
+``` bash
+$ hexo new "My New Post"
+```
+
+More info: [Writing](https://hexo.io/docs/writing.html)
+
+### Run server
+
+``` bash
+$ hexo server
+```
+
+More info: [Server](https://hexo.io/docs/server.html)
+
+### Generate static files
+
+``` bash
+$ hexo generate
+```
+
+More info: [Generating](https://hexo.io/docs/generating.html)
+
+### Deploy to remote sites
+
+``` bash
+$ hexo deploy
+```
+
+More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+
+
+###	Redis事务
+
+- > ​	本质 一组命令的集合
+
+  - ```bash
+    一个事务中的所有命令都会被数列话，在事务执行过程中会按照顺序执行，一次性、顺序性、排他性
+    ```
+
+  - 队列 set set set执行
+
+  - redis单挑命令是保存原子性的，但是事务不保证原子性
+
+  - redis的事务
+
+    - \1. 开启事务**（Multi）
+    - \2. 命令入队 (他会提示queued)
+    - \3. 执行事务** （exec）
+    - \4. 放弃（取消）事务 （discard）
+
+  - redis可以实现乐观锁
+
+    - 悲观锁
+      - 很悲观，认为什么时候都会出现问题，无论做什么都会被枷锁
+    - 乐观锁‘
+      - 很乐观，认为什么时候都不会出现问题，所以不会上锁，更新数据的时候去判断一下看看是否数据被修改
+      - 获取version
+      - 更新的时候比较version
+      - redis中的watch监视变量就是一个乐观锁
+
+  - 如果命令有错
+
+    - 编译型异常（代码有问题），食物中所有的命令都不会被执行 #在事务队列里面的都不会运行
+    - 运行时异常（1/0  runtime ERROR），如果事务队列中存在语法性错误，其他命令时可以正常执行的，错误命令不会执行 #
