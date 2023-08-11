@@ -5,8 +5,8 @@
 # Site
 title: kinderrr BLOG
 subtitle: 'no zuo no die'
-description: 'blog£¬by kinder £¬ a fantastic website'
-keywords: 'blog£¬by Wuzekai £¬due to change the world'
+description: 'blog | by kinder | a fantastic website'
+keywords: 'blog by Wuzekai due to change the world'
 author: Kinder
 language: zh-CN
 timezone: ''
@@ -103,23 +103,23 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
+    type: git
     repository:
-      # github: git@github.com:anzhiyu-c/anzhiyu-c.github.io.git  #ÓÃ»§Ãû@·þÎñÆ÷Ip:git²Ö¿âÎ»ÖÃ
-      github: https://github.com/Kinder200366/kinder.github.io.git
+      # github: git@github.com:Kinder200366/Kinder200366.github.io.git  #ï¿½Ã»ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ip:gitï¿½Ö¿ï¿½Î»ï¿½ï¿½
+      github: git@github.com:Kinder200366/Kinder200366.github.io.git
     branch: main
-  - type: baidu_url_submitter # ÕâÊÇÐÂ¼ÓµÄ°Ù¶ÈÖ÷¶¯ÍÆËÍ
+  # - type: baidu_url_submitter # ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ÓµÄ°Ù¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
  
   
 
   
-# ÎÄÕÂÁ´½Ó×ªÊý×Ö»ò×ÖÄ¸£ºhttps://github.com/rozbo/hexo-abbrlink
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½https://github.com/rozbo/hexo-abbrlink
 abbrlink:
-	alg: crc16   #Ëã·¨£º crc16(default) and crc32
-	rep: hex     #½øÖÆ£º dec(default) and hex: dec #Êä³ö½øÖÆ£ºÊ®½øÖÆºÍÊ®Áù½øÖÆ£¬Ä¬ÈÏÎª10½øÖÆ¡£Ø­decÎªÊ®½øÖÆ£¬hexÎªÊ®Áù½øÖÆ
+	alg: crc16   #ï¿½ã·¨ï¿½ï¿½ crc16(default) and crc32
+	rep: hex     #ï¿½ï¿½ï¿½Æ£ï¿½ dec(default) and hex: dec #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½Ê®ï¿½ï¿½ï¿½Æºï¿½Ê®ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½Ä¬ï¿½ï¿½Îª10ï¿½ï¿½ï¿½Æ¡ï¿½Ø­decÎªÊ®ï¿½ï¿½ï¿½Æ£ï¿½hexÎªÊ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-# ±¾µØËÑË÷£ºhttps://github.com/wzpan/hexo-generator-search
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½https://github.com/wzpan/hexo-generator-search
 search:
   path: search.xml
   field: all
@@ -128,20 +128,20 @@ search:
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
-  enable: true #¿ª¹Ø²å¼þ°æ¿´°åÄï
-  scriptFrom: local # Ä¬ÈÏ
-  # scriptFrom: https://cdn.cbd.int/live2d-widget@3.x/lib/L2Dwidget.min.js # ÄãµÄ×Ô¶¨Òå url
-  tagMode: false # ±êÇ©Ä£Ê½, ÊÇ·ñ½öÌæ»» live2d tag±êÇ©¶ø·Ç²åÈëµ½ËùÓÐÒ³ÃæÖÐ
-  debug: false # µ÷ÊÔ, ÊÇ·ñÔÚ¿ØÖÆÌ¨Êä³öÈÕÖ¾
+  enable: true #ï¿½ï¿½ï¿½Ø²ï¿½ï¿½ï¿½æ¿´ï¿½ï¿½ï¿½ï¿½
+  scriptFrom: local # Ä¬ï¿½ï¿½
+  # scriptFrom: https://cdn.cbd.int/live2d-widget@3.x/lib/L2Dwidget.min.js # ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ url
+  tagMode: false # ï¿½ï¿½Ç©Ä£Ê½, ï¿½Ç·ï¿½ï¿½ï¿½æ»» live2d tagï¿½ï¿½Ç©ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ëµ½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½
+  debug: false # ï¿½ï¿½ï¿½ï¿½, ï¿½Ç·ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½Ì¨ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾
   model:
     use: live2d-widget-model-koharu # npm-module package name
-    # use: https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json # ÄãµÄ×Ô¶¨Òå url
+    # use: https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json # ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ url
   display:
-    position: left #¿ØÖÆ¿´°åÄïÎ»ÖÃ
-    width: 150 #¿ØÖÆ¿´°åÄï´óÐ¡
-    height: 300 #¿ØÖÆ¿´°åÄï´óÐ¡
+    position: left #ï¿½ï¿½ï¿½Æ¿ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
+    width: 150 #ï¿½ï¿½ï¿½Æ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
+    height: 300 #ï¿½ï¿½ï¿½Æ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
   mobile:
-    show: false # ÊÖ»úÖÐÊÇ·ñÕ¹Ê¾
+    show: false # ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Õ¹Ê¾
 
 # https://github.com/hexojs/hexo-generator-sitemap
 sitemap:
@@ -168,14 +168,14 @@ plugins:
     - hexo-generator-baidu-sitemap
     - hexo-generator-sitemap
 
-# ×··¬²å¼þ
+# ×·ï¿½ï¿½ï¿½ï¿½ï¿½
 # https://github.com/HCLonely/hexo-bilibili-bangumi
-bangumi: # ×··¬ÉèÖÃ
+bangumi: # ×·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   enable: true
   path:
   vmid: 36473378
-  title: '×··¬ÁÐ±í'
-  quote: 'ÉúÃü²»Ï¢£¬×··¬²»Ö¹£¡'
+  title: '×·ï¿½ï¿½ï¿½Ð±ï¿½'
+  quote: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½×·ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½'
   show: 1
   lazyload: false
   loading:
@@ -185,12 +185,12 @@ bangumi: # ×··¬ÉèÖÃ
   progress:
   extra_options:
     key: value
-cinema: # ×·¾çÉèÖÃ
+cinema: # ×·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   enable: false
   path:
   vmid: 36473378
-  title: '×·¾çÁÐ±í'
-  quote: 'ÉúÃü²»Ï¢£¬×·¾ç²»Ö¹£¡'
+  title: '×·ï¿½ï¿½ï¿½Ð±ï¿½'
+  quote: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½×·ï¿½ç²»Ö¹ï¿½ï¿½'
   show: 1
   lazyload: false
   loading:
@@ -201,15 +201,196 @@ cinema: # ×·¾çÉèÖÃ
   extra_options:
     key: value
 
-# °Ù¶ÈÖ÷¶¯ÍÆËÍ
+# ï¿½Ù¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 # https://github.com/huiwang/hexo-baidu-url-submit
 baidu_url_submit:
-  count: 1        # Ìá½»×îÐÂµÄ¶àÉÙ¸öÁ´½Ó
-  host: blog.anzhiy.cn  # ÔÚ°Ù¶ÈÕ¾³¤Æ½Ì¨ÖÐÌí¼ÓµÄÓòÃû
-  token: Rgem9kAECSLflQq6   # ÃØÔ¿
-  path: baidu_urls.txt   # ÎÄ±¾ÎÄµµµÄµØÖ·£¬ ÐÂÁ´½Ó»á±£´æÔÚ´ËÎÄ±¾ÎÄµµÀï
+  count: 1        # ï¿½á½»ï¿½ï¿½ï¿½ÂµÄ¶ï¿½ï¿½Ù¸ï¿½ï¿½ï¿½ï¿½ï¿½
+  host: blog.anzhiy.cn  # ï¿½Ú°Ù¶ï¿½Õ¾ï¿½ï¿½Æ½Ì¨ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½
+  token: Rgem9kAECSLflQq6   # ï¿½ï¿½Ô¿
+  path: baidu_urls.txt   # ï¿½Ä±ï¿½ï¿½Äµï¿½ï¿½Äµï¿½Ö·ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ó»á±£ï¿½ï¿½ï¿½Ú´ï¿½ï¿½Ä±ï¿½ï¿½Äµï¿½ï¿½ï¿½
 # APlayer
 # https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
 aplayer:
   meting: true
   asset_inject: false
+  
+  
+# wowjs
+# see https://www.npmjs.com/package/hexo-butterfly-wowjs
+wowjs:
+  enable: true #ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¡ï¿½trueï¿½Ç´ò¿ª£ï¿½falseï¿½Ç¹Ø±ï¿½
+  priority: 10 #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½
+  mobile: false #ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Ä¬ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½Ë½ï¿½ï¿½ï¿½
+  animateitem:
+    - class: recent-post-item #ï¿½ï¿½ï¿½ï¿½ï¿½î£¬ï¿½ï¿½Òªï¿½ï¿½ï¿½Ó¶ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Øµï¿½class
+      style: animate__zoomIn #ï¿½ï¿½ï¿½ï¿½ï¿½î£¬ï¿½ï¿½Òªï¿½ï¿½ï¿½ÓµÄ¶ï¿½ï¿½ï¿½
+      duration: 1.5s #Ñ¡ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½msÒ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3sï¿½ï¿½700msï¿½ï¿½
+      delay: 200ms #Ñ¡ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½Ó³ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½msÒ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3sï¿½ï¿½700msï¿½ï¿½
+      offset: 30 #Ñ¡ï¿½ï¿½ï¿½î£¬ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ë£¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×²ï¿½ï¿½ï¿½
+      iteration: 1 #Ñ¡ï¿½ï¿½ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½Ä´ï¿½ï¿½ï¿½
+    - class: card-widget
+      style: animate__zoomIn
+      delay: 200ms
+    # - class: flink-list-card
+    #   style: wowpanels
+    - class: flink-list-card
+      style: animate__flipInY
+      duration: 3s
+    - class: flink-list-card
+      style: animate__animated
+      duration: 3s
+    - class: article-sort-item
+      style: animate__slideInRight
+      duration: 1.5s
+    - class: site-card
+      style: animate__flipInY
+      duration: 3s
+    - class: site-card
+      style: animate__animated
+      duration: 3s
+  animate_css: https://cdn.cbd.int/hexo-butterfly-wowjs/lib/animate.min.css
+  wow_js: https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow.min.js
+  wow_init_js: https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow_init.js
+  
+  
+# envelope_comment
+# see https://akilar.top/posts/e2d3c450/
+# envelope_comment
+# see https://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #ï¿½ï¿½ï¿½Æ¿ï¿½ï¿½ï¿½
+  custom_pic:
+    cover: https://cdn.cbd.int//hexo-butterfly-envelope/lib/violet.jpg #ï¿½Å¼ï¿½Í·ï¿½ï¿½Í¼Æ¬
+    line: https://cdn.cbd.int/hexo-butterfly-envelope/lib/line.png #ï¿½Å¼ï¿½×²ï¿½Í¼Æ¬
+    beforeimg: https://cdn.cbd.int/hexo-butterfly-envelope/lib/before.png # ï¿½Å·ï¿½Ç°ï¿½ë²¿ï¿½ï¿½
+    afterimg: https://cdn.cbd.int/hexo-butterfly-envelope/lib/after.png # ï¿½Å·ï¿½ï¿½ë²¿ï¿½ï¿½
+  message: #ï¿½Å¼ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    - ï¿½ï¿½Ê²Ã´ï¿½ï¿½ï¿½ÊµÄ£ï¿½
+    - ï¿½ï¿½Ê²Ã´ï¿½ï¿½Ëµï¿½Ä£ï¿½
+    - ï¿½ï¿½Ê²Ã´ï¿½ï¿½ï¿½Â²ÛµÄ£ï¿½
+    - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê²Ã´ï¿½ï¿½ÔµÄ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½ï¿½ï¿½ï¿½Å¶~
+  bottom: ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¼ï¿½ß³ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ #ï¿½ï¿½Ö§ï¿½Öµï¿½ï¿½ï¿½ï¿½Ä±ï¿½
+  height: #1050pxï¿½ï¿½ï¿½Å·â»®ï¿½ï¿½ï¿½Ä¸ß¶ï¿½
+  path: #ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½comments ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Æ¡ï¿½Ä¬ï¿½ï¿½Îª commentsï¿½ï¿½ï¿½ï¿½ï¿½Éµï¿½Ò³ï¿½ï¿½Îª comments/index.html
+  front_matter: #ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½commentsÒ³ï¿½ï¿½ï¿½ front_matter ï¿½ï¿½ï¿½ï¿½
+    title: ï¿½ï¿½ï¿½Ô°ï¿½
+    comments: true
+    
+
+    
+tag_plugins:
+  enable: true # ï¿½ï¿½ï¿½ï¿½
+  priority: 5 #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨
+  issues: false #issuesï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½
+  link:
+    placeholder: /img/siteicon/64.png #link_cardï¿½ï¿½Ç©Ä¬ï¿½Ïµï¿½Í¼ï¿½ï¿½Í¼Æ¬
+  CDN:
+    anima: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©animaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    jquery: https://cdn.cbd.int/jquery@latest/dist/jquery.min.js #issuesï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½
+    issues: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issuesï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½
+    iconfont: /js/ali_font.js #ï¿½Î¿ï¿½https://akilar.top/posts/d2ebecef/
+    carousel: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    
+    
+    
+ # footer_beautify
+# Ò³ï¿½Å¼ï¿½Ê±ï¿½ï¿½ï¿½ï¿½[Native JS Timer](https://akilar.top/posts/b941af/)
+# Ò³ï¿½Å»Õ±ê£º[Add Github Badge](https://akilar.top/posts/e87ad7f8/)
+footer_beautify:
+  enable:
+    timer: true # ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    bdage: true # ï¿½Õ±ê¿ªï¿½ï¿½
+  priority: 5 #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨
+  enable_page: all # Ó¦ï¿½ï¿½Ò³ï¿½ï¿½
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    type: id
+    name: footer-wrap
+    index: 0
+  # ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  runtime_js: /js/runtime.js
+  runtime_css: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/css/runtime/runtime.min.css
+  # ï¿½Õ±ê²¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  swiperpara: 0 #ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½Ü£ï¿½Ã¿ï¿½Ð»Õ±ï¿½ï¿½ï¿½ï¿½
+  bdageitem:
+    - link: https://hexo.io/ #ï¿½Õ±ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Õ¾ï¿½ï¿½ï¿½ï¿½
+      shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #ï¿½Õ±ï¿½API
+      message: ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ÎªHexo_v5.4.0 #ï¿½Õ±ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½
+    - link: https://butterfly.js.org/
+      shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
+      message: ï¿½ï¿½ï¿½ï¿½æ±¾Butterfly_v4.2.2
+    - link: https://www.jsdelivr.com/
+      shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
+      message: ï¿½ï¿½Õ¾Ê¹ï¿½ï¿½JsDelivrÎªï¿½ï¿½Ì¬ï¿½ï¿½Ô´ï¿½á¹©CDNï¿½ï¿½ï¿½ï¿½
+    - link: https://beian.miit.gov.cn/#/Integrated/index
+      shields: https://img.shields.io/badge/ç²¤ICPå¤‡-2023076666-e1d492?style=flat&logo=data:image/png;base64,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
+      message: ç²¤ICPå¤‡æ¡ˆ2023076666
+    - link: https://github.com/
+      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
+      message: ï¿½ï¿½Õ¾ï¿½ï¿½Ä¿ï¿½ï¿½Githubï¿½Ð¹ï¿½
+    - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      shields: https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
+      message: ï¿½ï¿½Õ¾ï¿½ï¿½ï¿½ï¿½ÖªÊ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½Ê¹ï¿½ï¿½-ï¿½ï¿½Í¬ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½4.0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+  # swiper_css: https://cdn.cbd.int/hexo-butterfly-swiper/lib/swiper.min.css
+  # swiper_js: https://cdn.cbd.int/hexo-butterfly-swiper/lib/swiper.min.js
+  # swiperbdage_init_js: https://cdn.cbd.int/hexo-butterfly-footer-beautify/lib/swiperbdage_init.min.js
+  
+  # electric_clock
+# see https://anzhiy.cn/posts/fc18.html
+electric_clock:
+  enable: true # ï¿½ï¿½ï¿½ï¿½
+  priority: 5 #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨
+  enable_page: all # Ó¦ï¿½ï¿½Ò³ï¿½ï¿½
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/loading.gif #ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.js
+  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+  qweather_key: # ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½key
+  gaud_map_key: # ï¿½ßµÃµï¿½Í¼webï¿½ï¿½ï¿½ï¿½key
+  default_rectangle: false # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ö±ï¿½ï¿½Ê¾rectangleÎ»ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò½«»ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ßµÄµï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  rectangle: 112.6534116,27.96920845 # ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½Ê§ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Î»ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬Ê±ï¿½ï¿½Î»ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½default_rectangleï¿½ï¿½ï¿½Î»ï¿½ï¿½
+  
+  
+# hexo-filter-  lendar
+# see https://akilar.top/posts/1f9c68c9/
+gitcalendar:
+  enable: false # ï¿½ï¿½ï¿½ï¿½
+  priority: 5 #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨
+  enable_page: / # Ó¦ï¿½ï¿½Ò³ï¿½ï¿½
+  # butterflyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  layout: # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    type: id
+    name: recent-posts
+    index: 0
+  user: anzhiyu-c #gitï¿½Ã»ï¿½ï¿½ï¿½
+  apiurl: "https://python-github-calendar-api-spk83h666-anzhiyu-c.vercel.app"
+  minheight:
+    pc: 280px #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ß¶ï¿½
+    mibile: 0px #ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ß¶ï¿½
+  # color: "['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06']" #ï¿½Ù»ï¿½É«ï¿½ï¿½
+  color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']" #Ç³ï¿½ï¿½É«ï¿½ï¿½
+  # color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½
+  # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½
+  container: .recent-post-item(style='width:100%;height:auto;padding:10px;') #ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÊ¹ï¿½ï¿½pugï¿½ï·¨
+  gitcalendar_css: https://cdn.cbd.int/hexo-filter-gitcalendar/lib/gitcalendar.css
+  gitcalendar_js: https://cdn.cbd.int/hexo-filter-gitcalendar/lib/gitcalendar.js
+  
+ # Pjax
+# It may contain bugs and unstable, give feedback when you find the bugs.
+# https://github.com/MoOx/pjax
+pjax:
+  enable: true
+  exclude:
+    # - xxxx
+    # - xxxx

@@ -1,20 +1,21 @@
-# Main menu navigation (Œ§º½Ä¿ä›)
-# see https://butterfly.js.org/posts/4aa8abbe/#Œ§º½²Ë†Î
+# Main menu navigation (ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½)
+# see https://butterfly.js.org/posts/4aa8abbe/#ï¿½ï¿½ï¿½ï¿½ï¿½Ë†ï¿½
 # --------------------------------------
 
 menu:
   Home: / || fas fa-home
   chase: /bangumis/index.html || fas fa-home
+  comment: /comments/ || fas fa-envelope
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
+  # Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
-# Code Blocks (´ú´aÏàêP)
+# Code Blocks (ï¿½ï¿½ï¿½aï¿½ï¿½ï¿½P)
 # --------------------------------------
 
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
@@ -25,22 +26,22 @@ highlight_height_limit: false # unit: px
 code_word_wrap: false
 
 # copy settings
-# copyright: Add the copyright information after copied content (Ñ}ÑuµÄƒÈÈİááÃæ¼ÓÉÏ°æ™àĞÅÏ¢)
+# copyright: Add the copyright information after copied content (ï¿½}ï¿½uï¿½Äƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½ï¿½ï¿½Ï¢)
 copy:
   enable: true
   copyright:
     enable: false
     limit_count: 50
 
-# social settings (Éç½»ˆD˜ËÔOÖÃ)
+# social settings (ï¿½ç½»ï¿½Dï¿½ï¿½ï¿½Oï¿½ï¿½)
 # formal:
 #   icon: link || the description
 social:
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
-# search (ËÑË÷)
-# see https://butterfly.js.org/posts/ceeb73f/#ËÑË÷Ïµ½y
+# search (ï¿½ï¿½ï¿½ï¿½)
+# see https://butterfly.js.org/posts/ceeb73f/#ï¿½ï¿½ï¿½ï¿½Ïµï¿½y
 # --------------------------------------
 
 # Algolia search
@@ -55,12 +56,12 @@ local_search:
   preload: false
   CDN:
 
-# Math (”µŒW)
+# Math (ï¿½ï¿½ï¿½W)
 # --------------------------------------
 # About the per_page
-# if you set it to true, it will load mathjax/katex script in each page (true ±íÊ¾Ã¿Ò»í“¶¼¼Óİdjs)
+# if you set it to true, it will load mathjax/katex script in each page (true ï¿½ï¿½Ê¾Ã¿Ò»í“¶ï¿½ï¿½ï¿½ï¿½djs)
 # if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
-# (false ĞèÒª•r¼Óİd£¬íšÔÚÊ¹ÓÃµÄ Markdown Front-matter ¼ÓÉÏ mathjax: true)
+# (false ï¿½ï¿½Òªï¿½rï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ãµï¿½ Markdown Front-matter ï¿½ï¿½ï¿½ï¿½ mathjax: true)
 
 # MathJax
 mathjax:
@@ -73,13 +74,13 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# Image (ˆDÆ¬ÔOÖÃ)
+# Image (ï¿½DÆ¬ï¿½Oï¿½ï¿½)
 # --------------------------------------
 
-# Favicon£¨¾WÕ¾ˆD˜Ë£©
+# Faviconï¿½ï¿½ï¿½WÕ¾ï¿½Dï¿½Ë£ï¿½
 favicon: /img/favicon.png
 
-# Avatar (î^Ïñ)
+# Avatar (ï¿½^ï¿½ï¿½)
 avatar:
   img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
   effect: false
@@ -88,13 +89,13 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://clubimg.club.vmall.com/data/attachment/forum/201911/01/2117190afjlobor1pncsf7.jpg
+index_img: https://source.fomal.cc/img/home_bg.webp
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://clubimg.club.vmall.com/data/attachment/forum/201911/01/2117190afjlobor1pncsf7.jpg
+default_top_img: https://source.fomal.cc/img/home_bg.webp
 # The banner image of archive page
 archive_img: https://clubimg.club.vmall.com/data/attachment/forum/201911/01/2117190afjlobor1pncsf7.jpg
 # If the banner of tag page not setting, it will show the top_img
-# note: tag page, not tags page (×Ó˜Ë»`í“ÃæµÄ top_img)
+# note: tag page, not tags page (ï¿½Ó˜Ë»`ï¿½ï¿½ï¿½ï¿½ top_img)
 tag_img:
 
 # The banner image of tag page
@@ -103,7 +104,7 @@ tag_img:
 tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
-# note: category page, not categories page (×Ó·Öîí“ÃæµÄ top_img)
+# note: category page, not categories page (ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ top_img)
 category_img:
 
 # The banner image of category page
@@ -112,18 +113,18 @@ category_img:
 category_per_img:
 
 cover:
-  # display the cover or not (ÊÇ·ñï@Ê¾ÎÄÕÂ·âÃæ)
+  # display the cover or not (ï¿½Ç·ï¿½ï¿½@Ê¾ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½)
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # the position of cover in home page (·âÃæï@Ê¾µÄÎ»ÖÃ)
+  # the position of cover in home page (ï¿½ï¿½ï¿½ï¿½ï¿½@Ê¾ï¿½ï¿½Î»ï¿½ï¿½)
   # left/right/both
   position: both
-  # When cover is not set, the default cover is displayed (®”›]ÓĞÔOÖÃcover•r£¬Ä¬ÕJµÄ·âÃæï@Ê¾)
+  # When cover is not set, the default cover is displayed (ï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½Oï¿½ï¿½coverï¿½rï¿½ï¿½Ä¬ï¿½Jï¿½Ä·ï¿½ï¿½ï¿½ï¿½@Ê¾)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
-# Replace Broken Images (Ìæ“QŸo·¨ï@Ê¾µÄˆDÆ¬)
+# Replace Broken Images (ï¿½ï¿½Qï¿½oï¿½ï¿½ï¿½@Ê¾ï¿½ÄˆDÆ¬)
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
@@ -132,24 +133,24 @@ error_img:
 error_404:
   enable: false
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://source.fomal.cc/img/home_bg.webp
 
 post_meta:
   page: # Home Page
-    date_type: created # created or updated or both Ö÷í“ÎÄÕÂÈÕÆÚÊÇ„“½¨ÈÕ»òÕß¸üĞÂÈÕ»ò¶¼ï@Ê¾
-    date_format: date # date/relative ï@Ê¾ÈÕÆÚß€ÊÇÏàŒ¦ÈÕÆÚ
-    categories: true # true or false Ö÷í“ÊÇ·ñï@Ê¾·Öî
-    tags: false # true or false Ö÷í“ÊÇ·ñï@Ê¾˜Ë»`
-    label: true # true or false ï@Ê¾ÃèÊöĞÔÎÄ×Ö
+    date_type: created # created or updated or both ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç„ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½ß¸ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½@Ê¾
+    date_format: date # date/relative ï¿½@Ê¾ï¿½ï¿½ï¿½ï¿½ß€ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    categories: true # true or false ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½@Ê¾ï¿½ï¿½ï¿½
+    tags: false # true or false ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½@Ê¾ï¿½Ë»`
+    label: true # true or false ï¿½@Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   post:
-    date_type: both # created or updated or both ÎÄÕÂí“ÈÕÆÚÊÇ„“½¨ÈÕ»òÕß¸üĞÂÈÕ»ò¶¼ï@Ê¾
-    date_format: date # date/relative ï@Ê¾ÈÕÆÚß€ÊÇÏàŒ¦ÈÕÆÚ
-    categories: true # true or false ÎÄÕÂí“ÊÇ·ñï@Ê¾·Öî
-    tags: true # true or false ÎÄÕÂí“ÊÇ·ñï@Ê¾˜Ë»`
-    label: true # true or false ï@Ê¾ÃèÊöĞÔÎÄ×Ö
+    date_type: both # created or updated or both ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç„ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½ß¸ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½@Ê¾
+    date_format: date # date/relative ï¿½@Ê¾ï¿½ï¿½ï¿½ï¿½ß€ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    categories: true # true or false ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½@Ê¾ï¿½ï¿½ï¿½
+    tags: true # true or false ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½@Ê¾ï¿½Ë»`
+    label: true # true or false ï¿½@Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-# wordcount (×Ö”µ½yÓ‹)
-# see https://butterfly.js.org/posts/ceeb73f/#×Ö”µ½yÓ‹
+# wordcount (ï¿½Ö”ï¿½ï¿½yÓ‹)
+# see https://butterfly.js.org/posts/ceeb73f/#ï¿½Ö”ï¿½ï¿½yÓ‹
 wordcount:
   enable: false
   post_wordcount: true
@@ -176,7 +177,7 @@ anchor:
 # Post
 # --------------------------------------
 
-# toc (Ä¿ä›)
+# toc (Ä¿ï¿½)
 toc:
   post: true
   page: false
@@ -214,19 +215,19 @@ post_edit:
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
-  date_type: created # or created or updated ÎÄÕÂÈÕÆÚï@Ê¾„“½¨ÈÕ»òÕß¸üĞÂÈÕ
+  date_type: created # or created or updated ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½ß¸ï¿½ï¿½ï¿½ï¿½ï¿½
 
-# figcaption (ˆDÆ¬ÃèÊöÎÄ×Ö)
+# figcaption (ï¿½DÆ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 photofigcaption: false
 
-# post_pagination (·Öí“)
+# post_pagination (ï¿½ï¿½ï¿½)
 # value: 1 || 2 || false
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
 post_pagination: 1
 
-# Displays outdated notice for a post (ÎÄÕÂß^ÆÚÌáĞÑ)
+# Displays outdated notice for a post (ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 noticeOutdate:
   enable: false
   style: flat # style: simple/flat
@@ -235,7 +236,7 @@ noticeOutdate:
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
 
-# Share System (·ÖÏí¹¦ÄÜ)
+# Share System (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 # --------------------------------------
 
 # AddThis
@@ -277,14 +278,14 @@ disqus:
   apikey: # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
-# DisqusJS ÔuÕ“Ïµ½y£¬¿ÉÒÔŒ¬FÔÚ¾WÂ·Œ²éµØ…^İdÈë Disqus ÔuÕ“ÁĞ±í£¬¼æÈİÔ­°æ
+# DisqusJS ï¿½uÕ“Ïµï¿½yï¿½ï¿½ï¿½ï¿½ï¿½ÔŒï¿½ï¿½Fï¿½Ú¾WÂ·ï¿½ï¿½ï¿½ï¿½Ø…^ï¿½dï¿½ï¿½ Disqus ï¿½uÕ“ï¿½Ğ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
   shortname:
   apikey:
   option:
 
-# livere (í±ØÁ¦)
+# livere (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 # https://www.livere.com/
 livere:
   uid:
@@ -453,7 +454,7 @@ microsoft_clarity:
 # Advertisement
 # --------------------------------------
 
-# Google Adsense (¹È¸èV¸æ)
+# Google Adsense (ï¿½È¸ï¿½Vï¿½ï¿½)
 google_adsense:
   enable: false
   auto_ads: true
@@ -461,13 +462,13 @@ google_adsense:
   client:
   enable_page_level_ads: true
 
-# Insert ads manually (ÊÖ„Ó²åÈëV¸æ)
+# Insert ads manually (ï¿½Ö„Ó²ï¿½ï¿½ï¿½Vï¿½ï¿½)
 # ad:
 #   index:
 #   aside:
 #   post:
 
-# Verification (Õ¾éLò×C)
+# Verification (Õ¾ï¿½Lï¿½ï¿½C)
 # --------------------------------------
 
 site_verification:
@@ -476,7 +477,7 @@ site_verification:
   # - name: baidu-site-verification
   #   content: xxxxxxx
 
-# Beautify/Effect (ÃÀ»¯/Ğ§¹û)
+# Beautify/Effect (ï¿½ï¿½ï¿½ï¿½/Ğ§ï¿½ï¿½)
 # --------------------------------------
 
 # Theme color for customize
@@ -501,36 +502,35 @@ site_verification:
 #   meta_theme_color_dark: "#0d0d0d"
 
 # The top_img settings of home page
-# default: top img - full screen, site info - middle (Ä¬ÕJtop_imgÈ«ÆÁ£¬site_infoÔÚÖĞég)
-# The position of site info, eg: 300px/300em/300rem/10% (Ö÷í“˜Ëî}¾àëxí”²¿¾àëx)
+# default: top img - full screen, site info - middle (Ä¬ï¿½Jtop_imgÈ«ï¿½ï¿½ï¿½ï¿½site_infoï¿½ï¿½ï¿½ï¿½ï¿½g)
+# The position of site info, eg: 300px/300em/300rem/10% (ï¿½ï¿½í“˜ï¿½ï¿½}ï¿½ï¿½ï¿½xí”²ï¿½ï¿½ï¿½ï¿½x)
 index_site_info_top:
-# The height of top_img, eg: 300px/300em/300rem (Ö÷í“top_img¸ß¶È)
+# The height of top_img, eg: 300px/300em/300rem (ï¿½ï¿½ï¿½top_imgï¿½ß¶ï¿½)
 index_top_img_height:
 
-# The user interface setting of category and tag page (categoryºÍtagí“µÄUIÔOÖÃ)
-# index - same as Homepage UI (index Öµ´ú±í UIŒ¢ÅcÊ×í“µÄUIÒ»˜Ó)
-# default - same as archives UI Ä¬ÕJ¸úarchivesí“ÃæUIÒ»˜Ó
-category_ui: # Áô¿Õ»ò index
-tag_ui: # Áô¿Õ»ò index
+# The user interface setting of category and tag page (categoryï¿½ï¿½tagí“µï¿½UIï¿½Oï¿½ï¿½)
+# index - same as Homepage UI (index Öµï¿½ï¿½ï¿½ï¿½ UIï¿½ï¿½ï¿½cï¿½ï¿½í“µï¿½UIÒ»ï¿½ï¿½)
+# default - same as archives UI Ä¬ï¿½Jï¿½ï¿½archivesï¿½ï¿½ï¿½UIÒ»ï¿½ï¿½
+category_ui: # ï¿½ï¿½ï¿½Õ»ï¿½ index
+tag_ui: # ï¿½ï¿½ï¿½Õ»ï¿½ index
 
-# Website Background (ÔOÖÃ¾WÕ¾±³¾°)
-# can set it to color or image (¿ÉÔOÖÃˆDÆ¬ »òÕß î†É«)
+# Website Background (ï¿½Oï¿½Ã¾WÕ¾ï¿½ï¿½ï¿½ï¿½)
+# can set it to color or image (ï¿½ï¿½ï¿½Oï¿½ÃˆDÆ¬ ï¿½ï¿½ï¿½ï¿½ ï¿½É«)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
-
+background: url(https://source.fomal.cc/img/home_bg.webp)
 # Footer Background
-footer_bg: false
+footer_bg: url(https://source.fomal.cc/img/home_bg.webp)
 
-# the position of bottom right button/default unit: px (ÓÒÏÂ½Ç°´âo¾àëxµ×²¿µÄ¾àëx/Ä¬ÕJ†ÎÎ»épx)
+# the position of bottom right button/default unit: px (ï¿½ï¿½ï¿½Â½Ç°ï¿½ï¿½oï¿½ï¿½ï¿½xï¿½×²ï¿½ï¿½Ä¾ï¿½ï¿½x/Ä¬ï¿½Jï¿½ï¿½Î»ï¿½ï¿½px)
 rightside-bottom:
 
-# Enter transitions (é_†™¾Wí“ßMÈëĞ§¹û)
+# Enter transitions (ï¿½_ï¿½ï¿½ï¿½Wï¿½ï¿½Mï¿½ï¿½Ğ§ï¿½ï¿½)
 enter_transitions: true
 
-# Background effects (±³¾°ÌØĞ§)
+# Background effects (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ§)
 # --------------------------------------
 
-# canvas_ribbon (ìoÖ¹²Ê§±³¾°)
+# canvas_ribbon (ï¿½oÖ¹ï¿½Êï¿½ï¿½ï¿½ï¿½ï¿½)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   enable: false
@@ -540,7 +540,7 @@ canvas_ribbon:
   click_to_change: false
   mobile: false
 
-# Fluttering Ribbon („Ó‘B²Ê§)
+# Fluttering Ribbon (ï¿½Ó‘Bï¿½Êï¿½)
 canvas_fluttering_ribbon:
   enable: false
   mobile: false
@@ -555,26 +555,26 @@ canvas_nest:
   count: 99 # the number of lines, default: 99.
   mobile: false
 
-# Typewriter Effect (´ò×ÖĞ§¹û)
+# Typewriter Effect (ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
   enable: false
-  colorful: true # open particle animation (Ã°¹âÌØĞ§)
-  shake: true #  open shake (¶¶„ÓÌØĞ§)
+  colorful: true # open particle animation (Ã°ï¿½ï¿½ï¿½ï¿½Ğ§)
+  shake: true #  open shake (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ§)
   mobile: false
 
-# Mouse click effects: fireworks (Êó˜Ëüc“ôĞ§¹û: ŸŸ»ğÌØĞ§)
+# Mouse click effects: fireworks (ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½Ğ§ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ§)
 fireworks:
   enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
-# Mouse click effects: Heart symbol (Êó˜Ëüc“ôĞ§¹û: ÛĞÄ)
+# Mouse click effects: Heart symbol (ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½Ğ§ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½)
 click_heart:
   enable: false
   mobile: false
 
-# Mouse click effects: words (Êó˜Ëüc“ôĞ§¹û: ÎÄ×Ö)
+# Mouse click effects: words (ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½Ğ§ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½)
 ClickShowText:
   enable: false
   text:
@@ -585,11 +585,11 @@ ClickShowText:
   random: false
   mobile: false
 
-# Default display mode (¾WÕ¾Ä¬ÕJµÄï@Ê¾Ä£Ê½)
+# Default display mode (ï¿½WÕ¾Ä¬ï¿½Jï¿½ï¿½ï¿½@Ê¾Ä£Ê½)
 # light (default) / dark
 display_mode: light
 
-# Beautify (ÃÀ»¯í“Ãæï@Ê¾)
+# Beautify (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@Ê¾)
 beautify:
   enable: false
   field: post # site/post
@@ -597,7 +597,7 @@ beautify:
   title-prefix-icon-color: # '#F47466'
 
 # Global font settings
-# Don't modify the following settings unless you know how they work (·Ç±ØÒª²»ÒªĞŞ¸Ä)
+# Don't modify the following settings unless you know how they work (ï¿½Ç±ï¿½Òªï¿½ï¿½Òªï¿½Ş¸ï¿½)
 font:
   global-font-size:
   code-font-size:
@@ -605,39 +605,39 @@ font:
   code-font-family:
 
 # Font settings for the site title and site subtitle
-# ×óÉÏ½Ç¾WÕ¾Ãû×Ö Ö÷í“¾ÓÖĞ¾WÕ¾Ãû×Ö
+# ï¿½ï¿½ï¿½Ï½Ç¾WÕ¾ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½í“¾ï¿½ï¿½Ğ¾WÕ¾ï¿½ï¿½ï¿½ï¿½
 blog_title_font:
   font_link:
   font-family:
 
-# The setting of divider icon (Ë®Æ½·Ö¸ô¾€ˆD˜ËÔOÖÃ)
+# The setting of divider icon (Ë®Æ½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Dï¿½ï¿½ï¿½Oï¿½ï¿½)
 hr_icon:
   enable: true
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
-# the subtitle on homepage (Ö÷í“subtitle)
+# the subtitle on homepage (ï¿½ï¿½ï¿½subtitle)
 subtitle:
   enable: false
-  # Typewriter Effect (´ò×ÖĞ§¹û)
+  # Typewriter Effect (ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½)
   effect: true
-  # Effect Speed Options (´ò×ÖĞ§¹ûËÙ¶È…¢”µ)
+  # Effect Speed Options (ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½Ù¶È…ï¿½ï¿½ï¿½)
   startDelay: 300 # time before typing starts in milliseconds
   typeSpeed: 150 # type speed in milliseconds
   backSpeed: 50 # backspacing speed in milliseconds
-  # loop (Ñ­­h´ò×Ö)
+  # loop (Ñ­ï¿½hï¿½ï¿½ï¿½ï¿½)
   loop: true
-  # source Õ{ÓÃµÚÈı·½·ş„Õ
-  # source: false êPé]Õ{ÓÃ
-  # source: 1  Õ{ÓÃÒ»ÑÔ¾WµÄÒ»¾äÔ’£¨º†ów£© https://hitokoto.cn/
-  # source: 2  Õ{ÓÃÒ»¾ä¾W£¨º†ów£© http://yijuzhan.com/
-  # source: 3  Õ{ÓÃ½ñÈÕÔŠÔ~£¨º†ów£© https://www.jinrishici.com/
-  # subtitle •şÏÈï@Ê¾ source , ÔÙï@Ê¾ sub µÄƒÈÈİ
+  # source ï¿½{ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  # source: false ï¿½Pï¿½]ï¿½{ï¿½ï¿½
+  # source: 1  ï¿½{ï¿½ï¿½Ò»ï¿½Ô¾Wï¿½ï¿½Ò»ï¿½ï¿½Ô’ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ https://hitokoto.cn/
+  # source: 2  ï¿½{ï¿½ï¿½Ò»ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ http://yijuzhan.com/
+  # source: 3  ï¿½{ï¿½Ã½ï¿½ï¿½ï¿½ÔŠï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ https://www.jinrishici.com/
+  # subtitle ï¿½ï¿½ï¿½ï¿½ï¿½@Ê¾ source , ï¿½ï¿½ï¿½@Ê¾ sub ï¿½Äƒï¿½ï¿½ï¿½
   source: false
-  # Èç¹ûêPé]´ò×ÖĞ§¹û£¬subtitle Ö»•şï@Ê¾ sub µÄµÚÒ»ĞĞÎÄ×Ö
+  # ï¿½ï¿½ï¿½ï¿½Pï¿½]ï¿½ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½ï¿½subtitle Ö»ï¿½ï¿½ï¿½@Ê¾ sub ï¿½Äµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   sub:
 
-# Loading Animation (¼Óİd„Ó®‹)
+# Loading Animation (ï¿½ï¿½ï¿½dï¿½Ó®ï¿½)
 preloader:
   enable: false
   # source
@@ -647,7 +647,7 @@ preloader:
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
 
-# aside (‚Èß…™Ú)
+# aside (ï¿½ï¿½ß…ï¿½ï¿½)
 # --------------------------------------
 
 aside:
@@ -689,7 +689,7 @@ aside:
   card_archives:
     enable: true
     type: monthly # yearly or monthly
-    format: MMMM YYYY # eg: YYYYÄêMMÔÂ
+    format: MMMM YYYY # eg: YYYYï¿½ï¿½MMï¿½ï¿½
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
     sort_order: # Don't modify the setting unless you know how it works
@@ -700,13 +700,13 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
-# ÔL†–ÈË”µ
+# ï¿½Lï¿½ï¿½ï¿½Ë”ï¿½
 busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
 
-# Time difference between publish date and now (¾Wí“ß\ĞĞ•rég)
+# Time difference between publish date and now (ï¿½Wï¿½ï¿½\ï¿½Ğ•rï¿½g)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: false
@@ -720,24 +720,24 @@ newest_comments:
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
 
-# Bottom right button (ÓÒÏÂ½Ç°´âo)
+# Bottom right button (ï¿½ï¿½ï¿½Â½Ç°ï¿½ï¿½o)
 # --------------------------------------
 
-# Conversion between Traditional and Simplified Chinese (º†·±ŞD“Q)
+# Conversion between Traditional and Simplified Chinese (ï¿½ï¿½ï¿½ï¿½ï¿½Dï¿½Q)
 translate:
   enable: false
   # The text of a button
-  default: ·±
-  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese£©
+  default: ï¿½ï¿½
+  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chineseï¿½ï¿½
   defaultEncoding: 2
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '·±'
+  msgToTraditionalChinese: 'ï¿½ï¿½'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: 'º†'
+  msgToSimplifiedChinese: 'ï¿½ï¿½'
 
-# Read Mode (é‡×xÄ£Ê½)
+# Read Mode (ï¿½ï¿½xÄ£Ê½)
 readmode: true
 
 # dark mode
@@ -745,23 +745,23 @@ darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
   button: true
-  # Switch dark/light mode automatically (×Ô„ÓÇĞ“Q dark modeºÍ light mode)
+  # Switch dark/light mode automatically (ï¿½Ô„ï¿½ï¿½Ğ“Q dark modeï¿½ï¿½ light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: false
 
-# Don't modify the following settings unless you know how they work (·Ç±ØÒªÕˆ²»ÒªĞŞ¸Ä )
+# Don't modify the following settings unless you know how they work (ï¿½Ç±ï¿½ÒªÕˆï¿½ï¿½Òªï¿½Ş¸ï¿½ )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
-# Don't repeat ²»ÒªÖØÑ}
+# Don't repeat ï¿½ï¿½Òªï¿½ï¿½ï¿½}
 rightside_item_order:
   enable: false
   hide: # readmode,translate,darkmode,hideAside
   show: # toc,chat,comment
 
-# Lightbox (ˆDÆ¬´óˆD²é¿´Ä£Ê½)
+# Lightbox (ï¿½DÆ¬ï¿½ï¿½Dï¿½é¿´Ä£Ê½)
 # --------------------------------------
-# You can only choose one, or neither (Ö»ÄÜßx“ñÒ»‚€ »òÕß ƒÉ‚€¶¼²»ßx)
+# You can only choose one, or neither (Ö»ï¿½ï¿½ï¿½xï¿½ï¿½Ò»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½x)
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
@@ -771,7 +771,7 @@ medium_zoom: false
 # http://fancyapps.com/fancybox/3/
 fancybox: true
 
-# Tag Plugins settings (˜Ë»`Íâ’ì)
+# Tag Plugins settings (ï¿½Ë»`ï¿½ï¿½ï¿½)
 # --------------------------------------
 
 # mermaid
@@ -814,10 +814,10 @@ aplayerInject:
   enable: true
   per_page: true
 
-# Snackbar (Toast Notification —´°)
+# Snackbar (Toast Notification ï¿½ï¿½ï¿½ï¿½)
 # https://github.com/polonel/SnackBar
-# position —´°Î»ÖÃ
-# ¿Éßx top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
+# position ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
+# ï¿½ï¿½ï¿½x top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: false
   position: bottom-left
@@ -825,16 +825,16 @@ snackbar:
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
-# prefetch (îA¼Óİd)
+# prefetch (ï¿½Aï¿½ï¿½ï¿½d)
 instantpage: false
 
 # https://github.com/vinta/pangu.js
-# Insert a space between Chinese character and English character (ÖĞÓ¢ÎÄÖ®égÌí¼Ó¿Õ¸ñ)
+# Insert a space between Chinese character and English character (ï¿½ï¿½Ó¢ï¿½ï¿½Ö®ï¿½gï¿½ï¿½ï¿½Ó¿Õ¸ï¿½)
 pangu:
   enable: false
   field: site # site/post
 
-# Lazyload (ˆDÆ¬‘Ğ¼Óİd)
+# Lazyload (ï¿½DÆ¬ï¿½Ğ¼ï¿½ï¿½d)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: false
@@ -852,6 +852,14 @@ lazyload:
 #   favicon_32_32: /pwa/32.png
 #   favicon_16_16: /pwa/16.png
 #   mask_icon: /pwa/safari-pinned-tab.svg
+pwa:
+  enable: true
+  manifest: /manifest.json
+  theme_color: "#3b70fc"
+  apple_touch_icon: /img/siteicon/128.png
+  favicon_32_32: /img/siteicon/32.png
+  favicon_16_16: /img/siteicon/16.png
+  mask_icon: /img/siteicon/128.png
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
@@ -871,25 +879,27 @@ css_prefix: true
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
-# ²åÈë´úÂëµ½Í·²¿ </head> Ö®Ç° ºÍ µ×²¿ </body> Ö®Ç°
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ëµ½Í·ï¿½ï¿½ </head> Ö®Ç° ï¿½ï¿½ ï¿½×²ï¿½ </body> Ö®Ç°
 inject:
   head:
+    #ï¿½Ô¶ï¿½ï¿½ï¿½css
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="title" href="/js/title.js" media="defer" onload="this.media='all'">
+    
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # aplayerÒôÀÖ
-    - <div class="aplayer no-destroy" data-id="1708664797" data-server="tencent" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div>
-
+    # aplayerï¿½ï¿½ï¿½ï¿½
+    - <div class="aplayer no-destroy" data-id="1708664797" data-server="tencent" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="true" data-mutex="true" ></div>
 # CDN
 # Don't modify the following settings unless you know how they work
-# ·Ç±ØÒªÕˆ²»ÒªĞŞ¸Ä
+# ï¿½Ç±ï¿½ÒªÕˆï¿½ï¿½Òªï¿½Ş¸ï¿½
 CDN:
-  # The CDN provider of internal scripts (Ö÷î}ƒÈ²¿ js µÄ cdn ÅäÖÃ)
+  # The CDN provider of internal scripts (ï¿½ï¿½ï¿½}ï¿½È²ï¿½ js ï¿½ï¿½ cdn ï¿½ï¿½ï¿½ï¿½)
   # option: local/jsdelivr/unpkg/cdnjs/custom
-  # Dev version can only choose. ( dev°æµÄÖ÷î}Ö»ÄÜÔOÖÃé local )
+  # Dev version can only choose. ( devï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}Ö»ï¿½ï¿½ï¿½Oï¿½Ãï¿½ local )
   internal_provider: local
 
-  # The CDN provider of third party scripts (µÚÈı·½ js µÄ cdn ÅäÖÃ)
+  # The CDN provider of third party scripts (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ js ï¿½ï¿½ cdn ï¿½ï¿½ï¿½ï¿½)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
@@ -953,3 +963,40 @@ CDN:
     # prismjs_autoloader:
     # artalk_js:
     # artalk_css:
+    
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # ï¿½ï¿½ï¿½ï¿½
+  priority: 5 #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨
+  issues: false #issuesï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½
+  link:
+    placeholder: /img/siteicon/64.png #link_cardï¿½ï¿½Ç©Ä¬ï¿½Ïµï¿½Í¼ï¿½ï¿½Í¼Æ¬
+  CDN:
+    anima: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©animaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    jquery: https://cdn.cbd.int/jquery@latest/dist/jquery.min.js #issuesï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½
+    issues: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issuesï¿½ï¿½Ç©ï¿½ï¿½ï¿½ï¿½
+    iconfont: /js/ali_font.js #ï¿½Î¿ï¿½https://akilar.top/posts/d2ebecef/
+    carousel: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    
+    
+# hexo-butterfly-swiper-anzhiyu
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: false # ï¿½ï¿½ï¿½ï¿½
+  randomenable: true # ï¿½Ë³ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½ï¿½
+  priority: 5 #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨
+  enable_page: / # Ó¦ï¿½ï¿½Ò³ï¿½ï¿½
+  timemode: date #date/updated
+  layout: # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    type: id
+    name: recent-posts
+    index: 1
+  default_descr: ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  swiper_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiper.min.css #swiper cssï¿½ï¿½ï¿½ï¿½
+  swiper_js: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/js/swiper.min.js #swiper jsï¿½ï¿½ï¿½ï¿½ #swiper jsï¿½ï¿½ï¿½ï¿½
+  custom_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiperstyle.css # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
+  custom_js: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiper_init.js # swiperï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  gsap_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js
+  people_js: https://npm.elemecdn.com/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/people.min.js
