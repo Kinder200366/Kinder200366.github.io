@@ -1,3 +1,11 @@
+---
+title: 'go语言学习'
+abbrlink: 3dsd
+date: 2022-10-27 17:26:12
+tags: daily
+cover: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2020-04-01%2F5e8423d5e080e.jpg&refer=http%3A%2F%2Fpic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1669530272&t=4f61b46fe5b9b5c01d4d542c7d2c1966
+keywords: daily
+---
 ## Go语言基础
 
 
