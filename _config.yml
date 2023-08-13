@@ -116,8 +116,8 @@ deploy:
   
 # ��������ת���ֻ���ĸ��https://github.com/rozbo/hexo-abbrlink
 abbrlink:
-	alg: crc16   #�㷨�� crc16(default) and crc32
-	rep: hex     #���ƣ� dec(default) and hex: dec #������ƣ�ʮ���ƺ�ʮ�����ƣ�Ĭ��Ϊ10���ơ�حdecΪʮ���ƣ�hexΪʮ������
+  alg: crc16   #�㷨�� crc16(default) and crc32
+  rep: hex     #���ƣ� dec(default) and hex: dec #������ƣ�ʮ���ƺ�ʮ�����ƣ�Ĭ��Ϊ10���ơ�حdecΪʮ���ƣ�hexΪʮ������
 
 # ����������https://github.com/wzpan/hexo-generator-search
 search:
