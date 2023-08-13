@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>kinderrr BLOG</title>
+  
+  <subtitle>no zuo no die</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-11-06T08:21:32.876Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Kinder</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/posts/0.html"/>
+    <id>http://example.com/posts/0.html</id>
+    <published>2022-11-03T15:01:17.129Z</published>
+    <updated>2022-11-06T08:21:32.876Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="C:\Users\Kinder2003\AppData\Roaming\Typora\typora-user-images\image-20221103230248111.png" alt="image-20221103230248111"></p><ul><li><h3 id="消息格式"><a href="#消息格式" class="headerlink" title="消息格式"></a><strong>消息格式</strong></h3><ul><li><p>客户端 ——服务端</p><p>​                                                    {“toName”:”张三”  ，”message”:brabra}</p></li><li><p>服务端——客户端</p><ul><li>基本格式</li><li><img src="C:\Users\Kinder2003\AppData\Roaming\Typora\typora-user-images\image-20221103230537086.png" alt="image-20221103230537086"></li></ul></li></ul></li></ul><h3 id="功能实现"><a href="#功能实现" class="headerlink" title="功能实现"></a><strong>功能实现</strong></h3><blockquote><p>​    参考:<a href="https://blog.csdn.net/moshowgame/article/details/80275084?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166748714216782425664597%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=166748714216782425664597&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-80275084-null-null.142^v63^control,201^v3^control_1,213^v1^control&amp;utm_term=websocket&amp;spm=1018.2226.3001.4187">https://blog.csdn.net/moshowgame/article/details/80275084?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166748714216782425664597%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=166748714216782425664597&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-80275084-null-null.142^v63^control,201^v3^control_1,213^v1^control&amp;utm_term=websocket&amp;spm=1018.2226.3001.4187</a></p></blockquote><ol><li><p>创建项目</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span>  </span><br><span class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span>  </span><br><span class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-websocket<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span>  </span><br><span class="line">  <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span> </span><br></pre></td></tr></table></figure></li><li><p>工具类</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MessageUtils</span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> String <span class="title function_">getMessage</span><span class="params">(<span class="type">boolean</span> isSystemMessage,String fromName,Object message)</span>&#123;</span><br><span class="line">        ResultMessage result= <span class="keyword">new</span> <span class="title class_">ResultMessage</span>();</span><br><span class="line">        result.setIsSystem(isSystemMessage);</span><br><span class="line">        result.setMessage(message);</span><br><span class="line">        <span class="keyword">if</span>(fromName!=<span class="literal">null</span>)&#123;</span><br><span class="line">            result.setFromName(fromName);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">ObjectMapper</span> <span class="variable">mapper</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ObjectMapper</span>();</span><br><span class="line">        <span class="keyword">return</span> mapper.writeValueAsString(result);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;C:\Users\Kinder2003\AppData\Roaming\Typora\typora-user-images\image-20221103230248111.png&quot; alt=&quot;image-20221103230248111&quot;&gt;&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>VUE学习</title>
+    <link href="http://example.com/posts/0.html"/>
+    <id>http://example.com/posts/0.html</id>
+    <published>2022-10-27T09:26:12.000Z</published>
+    <updated>2022-10-28T06:28:40.149Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前端快速入门"><a href="#前端快速入门" class="headerlink" title="前端快速入门"></a>前端快速入门</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># 逻辑</span><br><span class="line">- 判断</span><br><span class="line">- 循环</span><br><span class="line"></span><br><span class="line"># 事件</span><br><span class="line">- 浏览器事件： window document</span><br><span class="line">- DOM事件 : 增 删 改 遍历</span><br><span class="line">- jquery</span><br><span class="line"></span><br><span class="line"># 视图</span><br><span class="line">- html</span><br><span class="line">- css</span><br><span class="line"> </span><br><span class="line"># 通信</span><br><span class="line">- xhr</span><br><span class="line">- ajax（most important）</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p><strong>好东西</strong>：bootstrap 脚本工具 VUE + BootStrap</p><p>​                —-&gt; java全栈工程师：</p><ul><li>后端 ： java+ssm+maven+springBoot+mybatis</li><li>前端 ： html + css + js +jquery</li><li>运维 ： 项目发布； 服务器如何运行一个项目</li></ul><h2 id="样式"><a href="#样式" class="headerlink" title="样式"></a>样式</h2><p>​    </p><p>​        CSS：</p><ul><li><p>预处理器：sess 、现在可以用less（常用）写</p><p>javaScript预处理器</p><p>Javascript</p></li><li><p>TypeScript</p></li><li><p>Jquery ：</p></li><li><p>Angular : 谷歌收购的前端框架，java开发，增加了前端</p></li><li><p>vue</p><ul><li>虚拟dom+angular（模块化开发）</li></ul></li><li><p>react </p><ul><li>facebook 出品，高性能的js框架</li></ul><h2 id="UI框架"><a href="#UI框架" class="headerlink" title="UI框架"></a>UI框架</h2></li></ul><ul><li><p>三端统一</p><ul><li>混合开发（目的是实验一套代码三端统一）<ul><li>pc + android(.apk) + ios(.ipa)</li><li>打包方式两种<ul><li><ol><li>云打包 hbuild -&gt;hbulidX </li><li>本地打包 cordove</li></ol></li></ul></li></ul></li></ul></li><li><p>前端了解的后端技术</p><ul><li>express ：nodejs框架</li><li>koa：express简化版</li><li>npm项目综合管理工具：类似maven</li><li>yarn：npm的替代方案</li><li></li></ul></li><li><p>饿了么ui</p><ul><li>elementUI是饿了么前端开源的vue UI组件库，主键齐全，基本涵盖后台所需的所有组件，例子很丰富，主要用于开发pc的页面，是一个质量比较高的vueUI组件库</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前端快速入门&quot;&gt;&lt;a href=&quot;#前端快速入门&quot; class=&quot;headerlink&quot; title=&quot;前端快速入门&quot;&gt;&lt;/a&gt;前端快速入门&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=</summary>
+      
+    
+    
+    
+    
+    <category term="daily" scheme="http://example.com/tags/daily/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>springboot_generate_redis</title>
+    <link href="http://example.com/posts/b7fc.html"/>
+    <id>http://example.com/posts/b7fc.html</id>
+    <published>2022-10-24T06:37:12.000Z</published>
+    <updated>2022-10-28T06:28:00.889Z</updated>
+    
+    
+    
+    
+    
+    <category term="daily" scheme="http://example.com/tags/daily/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis事务</title>
+    <link href="http://example.com/posts/3eeb.html"/>
+    <id>http://example.com/posts/3eeb.html</id>
+    <published>2022-10-24T05:59:17.945Z</published>
+    <updated>2022-10-28T06:26:44.766Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Redis事务"><a href="#Redis事务" class="headerlink" title="Redis事务"></a>Redis事务</h3><ul><li><blockquote><p>​    本质 一组命令的集合</p></blockquote><ul><li><pre><code class="lang-bash">一个事务中的所有命令都会被数列话，在事务执行过程中会按照顺序执行，一次性、顺序性、排他性</code></pre></li><li><p>队列 set set set执行</p></li><li><p>redis单挑命令是保存原子性的，但是事务不保证原子性</p></li><li><p>redis的事务</p><ul><li>\1. 开启事务**（Multi）</li><li>\2. 命令入队 (他会提示queued)</li><li>\3. 执行事务** （exec）</li><li>\4. 放弃（取消）事务 （discard）</li></ul></li><li><p>redis可以实现乐观锁</p><ul><li>悲观锁<ul><li>很悲观，认为什么时候都会出现问题，无论做什么都会被枷锁</li></ul></li><li>乐观锁‘<ul><li>很乐观，认为什么时候都不会出现问题，所以不会上锁，更新数据的时候去判断一下看看是否数据被修改</li><li>获取version</li><li>更新的时候比较version</li><li>redis中的watch监视变量就是一个乐观锁</li></ul></li></ul></li><li><p>如果命令有错</p><ul><li>编译型异常（代码有问题），食物中所有的命令都不会被执行 #在事务队列里面的都不会运行</li><li>运行时异常（1/0  runtime ERROR），如果事务队列中存在语法性错误，其他命令时可以正常执行的，错误命令不会执行 #</li></ul></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Redis事务&quot;&gt;&lt;a href=&quot;#Redis事务&quot; class=&quot;headerlink&quot; title=&quot;Redis事务&quot;&gt;&lt;/a&gt;Redis事务&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;blockquote&gt;
+&lt;p&gt;​    本质 一组命令的集合&lt;/p&gt;
+&lt;/blockq</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
